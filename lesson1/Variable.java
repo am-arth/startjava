@@ -1,4 +1,4 @@
-public class Variable1 {	
+public class Variable {	
 	public static void main(String[] args) {
 
 		String cpuname = "i5-3317";
