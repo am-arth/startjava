@@ -21,7 +21,7 @@ public class ConditionalStatement {
 			System.out.println("выше 1.80");
 		}
 		
-		char firstNameLetter= "Maxim".charAt(0);
+		char firstNameLetter = "Maxim".charAt(0);
 		if (firstNameLetter == 'M') {
 			System.out.println("Первая буква в имени M"); 
 		} else {
