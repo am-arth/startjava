@@ -17,38 +17,37 @@ public class Calculator {
 		int j = 1;
 		b = b - 1;
 		if (toDo == '^') {
-		while (i <= b) {
-			i ++;
-			j = j * a;
-	
-	}
-		result = j;
-	}	
+				while (i <= b) {
+					i ++;
+					j = j * a;
+				}
+				result = j;
+		}	
 		if (toDo == '%') {
-		a = a / 100;	
-		result = a * b;
-	}	
+			a = a / 100;	
+			result = a * b;
+		}	
 		if (toDo == '+') {
-		result = a + b;
-	}
+			result = a + b;
+		}
 		if (toDo == '-') {
-		result = a - b;
-	}	
+			result = a - b;
+		}
 		if (toDo == '*') {
-		result = a * b;
-	}	
+			result = a * b;
+		}
 		if (toDo == '/') {
-		if (b <= 0) {
-		result = -1;
-	}	else {
-		result = a / b;
-	}	
-	}	
+			if (b <= 0) {
+				result = -1;
+			} else {
+				result = a / b;
+				}
+		}	
 		if (result == -1 ) {
-		System.out.println("Делить на 0 или отрицательное число нельзя");	
-	} 	else {
-		System.out.println("Получен результат:" + result);
+			System.out.println("Делить на 0 или отрицательное число нельзя");	
+		} else {
+			System.out.println("Получен результат:" + result);
+			}
 	}
-	}
-	}
+}
 	
