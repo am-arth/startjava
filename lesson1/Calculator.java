@@ -13,14 +13,11 @@ public class Calculator {
 		sc.close();
 
 		int result = 0;
-		int i = 0;
-		int j = 1;
-		//b = b - 1;
 		if (sign == '^') {
-				for (i = 0; i <= b - 1; i++) {
-				j = j * a;
+			result = 1;
+			for (int i = 0; i <= b - 1; i++) {
+			result *= a;
 			}
-				result = j;
 		}
 		if (sign == '%') {	
 			result = a % b;
@@ -38,8 +35,8 @@ public class Calculator {
 			if (b <= 0) {
 			System.out.println("Делить на 0 или отрицательное число нельзя");	
 			} else {
-				result = a / b;
-				}
+			result = a / b;
+			}
 		}	
 			System.out.println("Получен результат:" + result);
 		}
