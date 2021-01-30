@@ -18,20 +18,15 @@ public class Calculator {
 			for (int i = 0; i <= b - 1; i++) {
 			result *= a;
 			}
-		}
-		if (sign == '%') {	
-			result = a % b;
-		}	
-		if (sign == '+') {
+		} else if (sign == '%') {	
+				result = a % b;
+		} else if (sign == '+') {
 			result = a + b;
-		}
-		if (sign == '-') {
+		} else if (sign == '-') {
 			result = a - b;
-		}
-		if (sign == '*') {
+		} else if (sign == '*') {
 			result = a * b;
-		}
-		if (sign == '/') {
+		} else if (sign == '/') {
 			if (b <= 0) {
 			System.out.println("Делить на 0 или отрицательное число нельзя");	
 			} else {
