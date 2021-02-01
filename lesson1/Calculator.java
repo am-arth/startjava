@@ -16,10 +16,10 @@ public class Calculator {
 		if (sign == '^') {
 			result = 1;
 			for (int i = 0; i <= b - 1; i++) {
-			result *= a;
+				result *= a;
 			}
 		} else if (sign == '%') {	
-				result = a % b;
+			result = a % b;
 		} else if (sign == '+') {
 			result = a + b;
 		} else if (sign == '-') {
@@ -28,11 +28,11 @@ public class Calculator {
 			result = a * b;
 		} else if (sign == '/') {
 			if (b <= 0) {
-			System.out.println("Делить на 0 или отрицательное число нельзя");	
+				System.out.println("Делить на 0 или отрицательное число нельзя");	
 			} else {
-			result = a / b;
+				result = a / b;
 			}
 		}	
-			System.out.println("Получен результат:" + result);
-		}
+		System.out.println("Получен результат:" + result);
 	}
+}
