@@ -8,23 +8,23 @@ float height = 2;
 float weight = 30;
 
 
-void go (){
+void go(){
 System.out.println ("Волк идет");
 }
 
-void run (){
+void run(){
 System.out.println ("Волк бежит");
 }
 
-void seat (){
+void seat(){
 System.out.println ("Волк сидит");
 }
 
-void hawl (){
+void hawl(){
 System.out.println ("Волк воет");
 }
 
-void hunt (){
+void hunt(){
 System.out.println ("Волк охотится");
 }
 }
