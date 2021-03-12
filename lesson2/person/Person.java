@@ -7,19 +7,19 @@ Public class Person {
 	float weight = 75;
 	int Age = 29;
 
-void move (){
+void move(){
 	
 }
-void seat (){
+void seat(){
 	
 }
 void Run(){
 
 }
-String Speak (){
+String Speak(){
 	
 }
-String StudyJava (){
+String StudyJava(){
 	
 }
 }
